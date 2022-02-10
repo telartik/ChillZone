@@ -1,0 +1,842 @@
+.bodyUp {
+    background: url(../img/bg_4.jpg) no-repeat fixed;
+    background-size: 100vw 100vh;
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    background: url(../img/IMG_6674.jpg) fixed;
+    background-size: 100vw 100%;
+}
+
+header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0, 0.4);
+    z-index: 2;
+    height: 80.7vh;
+}
+
+.headerUp {
+    position: relative;
+    z-index: 3;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 10vh;
+    align-items: center;
+}
+
+.headerUpText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerUpText2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.headerUpText3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.headerUpText4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.headerUpText5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.headerUpText6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.styleTextOpenSans {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.headerDown {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.headerDownText1 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: rgb(255, 0, 0);
+    margin: 0;
+    padding-top: 50px;
+}
+
+.headerDownText2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: rgb(255, 145, 0);
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 4.5px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.headerDownText3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.imgHeaderDown {
+    width: 100%;
+    height: 100vh;
+}
+
+.headerPhoneNumber {
+    font-family: "Oswald", sans-serif;
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.headerPhoneNumberText {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.headerDownTextLocation {
+    color: white;
+    font-size: 35px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.directionColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerDownForm1 {
+    position: absolute;
+    top: 48%;
+    left: 46%;
+}
+
+.headerDownForm2 {
+    position: absolute;
+    top: 48%;
+    left: 51%;
+}
+
+.headerDownButton1 {
+    margin-right: 8px;
+    padding: 17px 20px;
+    background-color: darkorange;
+    width: 120px;
+    height: 55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(245, 135, 2);
+    text-decoration: none;
+}
+
+.headerDownButton2 {
+    padding: 17px 32px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 120px;
+    height: 55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(139, 139, 139);
+    border-image: initial;
+    text-decoration: none;
+}
+
+.headerDownButton1Text {
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.headerDownButton2Text {
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.textDecorationNone {
+    text-decoration: none;
+}
+
+.aboutUs {
+    display: flex;
+}
+
+.aboutUsLeft {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 72.68vw;
+    padding: 30px 0;
+}
+
+.icon-phone1 {
+    color: darkorange;
+    padding-right: 22px;
+}
+
+.telephone {
+    text-decoration: none;
+    color: white;
+}
+
+.icon-my_location {
+    color: darkorange;
+    padding-right: 22px;
+}
+
+.icon-clock-o {
+    color: darkorange;
+    padding-right: 22px;
+}
+
+.aboutUsLeftTextWhite {
+    color: white;
+    margin: 0;
+}
+
+.aboutUsLeft1 {
+    padding-left: 190px;
+    display: flex;
+}
+
+.aboutUsLeft2 {
+    display: flex;
+}
+
+.aboutUsLeft3 {
+    display: flex;
+}
+
+.aboutUsLeftTextPaddingTop0 {
+    line-height: normal;
+}
+
+.aboutUsLeft3 {
+    padding-left: 86px;
+}
+
+.allLibreFranklinStyle {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+}
+
+.allLibreFranklinStyle3 {
+    color: grey;
+    justify-self: center;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.aboutusRight {
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.flaticon-diet, .locationIconPng, .flaticon-pizza-1 {
+    font-size: 60px;
+    color: #220e00;
+    z-index: 1;
+}
+
+.locationIconPng img {
+    position: relative;
+    z-index: 9;
+    right: 1px;
+    
+}
+
+.locationIconPng1 img {
+    top: 15px;
+    right: 2px;
+    width: 74px;
+}
+
+.aboutUsLink {
+    text-decoration: none;
+    color: white;
+}
+
+.aboutUsLink1 {
+    margin-left: 100px;
+}
+
+.aboutUsLink2 {
+    padding-left: 25px;
+}
+
+.aboutUsLink3 {
+    padding-left: 25px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+.weclomeImg {
+    width: 50vw;
+    height: 65vh;
+}
+
+.welcomeAllText {
+    width: 50vw;
+    display: flex;
+    line-height: 1.8;
+    flex-direction: column;
+}
+
+.welcomeTitle {
+    text-align: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+.welcomeDiv1 {
+    display: flex;
+}
+
+.welcomeDivImg {
+    width: 70px;
+    align-self: flex-start;
+}
+
+.welcomeTittleSmallerText {
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.welcomeLittleText {
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(131, 131, 131);
+}
+
+.ourServicesTitle {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    /*font-family: 'Libre Franklin', sans-serif;*/
+    letter-spacing: 0.2vw;
+}
+
+.ourServicesText {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    color: #5c3d03;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.ourServices {
+    background: url(../img/food.png) fixed;
+    padding: 7em 0;
+}
+
+.ourServisesDown {
+    display: flex;
+    justify-content: center;
+}
+
+.ourServisesDown1Text1 {
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #493000;
+    
+}
+
+.ourServisesDown1 {
+    padding-left: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ourServisesDown2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.ourServisesDown3 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 248px;
+}
+
+.heading {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.ourServisesDown1Text11 {
+    transition-duration: 1s;
+    width: 98px;
+    height: 98px;
+    border: 1px;
+    border: 1px solid #bf7e06;
+    text-align: center;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #5c3d03;
+}
+
+.ourServisesDown1111 {
+    display: flex;
+    justify-content: center;
+}
+
+.pricetableUp {
+    padding: 5em 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricetableUpTitle {
+    /*font-family: "Josefin Sans", Arial, sans-serif;*/
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.pricetableUpText {
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: gray;
+}
+
+.pricetableDownPhoto1 {
+    width: 50%;
+}
+
+.pricetableDownPhotoAll {
+    width: 100%;
+    height: 350px;
+}
+
+.pricetableDownPhotoAll1 {
+    border: 1px solid white;
+    border-left: 0px;
+    border-top: 0px;
+}
+
+.pricetableDownPhotoAll2 {
+    border: 1px solid white;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.pricetableDownPhotoAll3 {
+    border: 1px solid white;
+    border-bottom: 0px;
+}
+
+.pricetableDownPhoto {
+    display: flex;
+    width: 527px;
+    max-width: 33.33333%;
+}
+
+.pricetableDownPhoto1DownOrdertext {
+    transition: 0.2s;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Poppins", Arial, sans-serif;
+    background: none;
+    border: 1px solid #fff;
+}
+
+.pricetableDownPhoto1DownPrice {
+    margin: 0;
+    color: rgb(255, 123, 0);
+    font-size: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-right: 0.8rem;
+}
+
+.pricetableDownPhotoText {
+    font-family: "Poppins", Arial, sans-serif;
+    align-self: center;
+    font-size: 25px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.pricetableDownPhotoRight {
+    width: 100%;
+    background: rgba(250 197 100);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pricetableDownPhoto1Down {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.pricetableDownPhotoTitle {
+    align-self: center;
+    font-size: 45px;
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.pricetableDownPhoto1DownPriceTextOrderPadding {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.pricetableDown {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pricetableDown {
+    width: 98vw;
+    padding-left: 0.4vw;
+}
+
+.pricetableDownHr, hr {
+    width: 90vw;
+    background-color: #bf7e06;
+    border-color: #bf7e06;
+}
+
+.ourlocation {
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.ourlocationonmap {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ourlocationonmapTitle {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    color: #fff;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.ourlocationonmapText1 {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.ourlocationonmapText2 {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 0;
+    color: #fff;
+    margin: 0;
+}
+
+.strelka {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 85px 40px 200px;
+}
+
+.footerFollowIconsHref {
+    text-decoration: none;
+    color: white;
+}
+
+.footerFollowIcons1 {
+    color: white;
+    font-size: 35px;
+    padding-right: 70px;
+    margin: 0;
+}
+
+.footerFollowIcons2 {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.footerFollowIcons2Text {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.footerFollowIcons2Text1 {
+    padding-right: 50px;
+}
+
+.footerFollowIcons2Text2 {
+    padding-right: 50px;
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+}
+
+.follow2 {
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+}
+
+.ourServisesDown1Text11 {
+    position: relative;
+    border: none;
+}
+
+.locationIconPng::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -3px;
+    width: 98px;
+    height: 98px;
+    border: 1px solid #bf7e06;  
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #5c3d03;
+    transition: 0.3s ease; 
+}
+
+.locationIconPng::before {
+    position: relative;
+    z-index: 2;
+}
+
+.ourServisesDown1Text11:hover .locationIconPng::after{
+    transform: rotate(135deg);
+    background-color: #FFA500;
+    border: 1px solid #FFA500;
+    z-index: 1;
+}
+
+.flaticon-diet::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98px;
+    height: 98px;
+    border: 1px solid #bf7e06;  
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #5c3d03;
+    transition: 0.3s ease; 
+}
+
+.flaticon-diet::before {
+    position: relative;
+    z-index: 2;
+}
+
+.ourServisesDown1Text11:hover .flaticon-diet::after{
+    transform: rotate(135deg);
+    background-color: #FFA500;
+    border: 1px solid #FFA500;
+    z-index: 1;
+}
+
+.flaticon-pizza-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    width: 98px;
+    height: 98px;
+    border: 1px solid #bf7e06;  
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #5c3d03;
+    transition: 0.3s ease; 
+}
+
+.flaticon-pizza-1::before {
+    position: relative;
+    z-index: 2;
+}
+
+.ourServisesDown1Text11:hover .flaticon-pizza-1::after{
+    transform: rotate(135deg);
+    background-color: #FFA500;
+    border: 1px solid #FFA500;
+    z-index: 1;
+}
+
+.pricetableDownPhoto1DownOrdertext:hover {
+    border-color: darkorange;
+    background-color: darkorange;
+    color: black;
+}
+
+.footerFollowIcons1_1:hover {
+    color: rgb(160, 160, 160);
+}
+
+.footerFollowIcons1_2:hover {
+    color: rgb(160, 160, 160);
+}
+
+.footerFollowIcons1_3:hover {
+    color: rgb(160, 160, 160);
+}
+
+.aboutUsLink1:hover {
+    color: rgb(209, 209, 209);
+}
+
+.aboutUsLink2:hover {
+    color: rgb(209, 209, 209);
+}
+
+.aboutUsLink3:hover {
+    color: rgb(209, 209, 209);
+}
+
+.slydetTop {
+    display: flex;
+    align-items: center;
+}
+
+.slyderMain {
+    width: 98vw;
+}
+
+.slick-next:before {
+    position: relative;
+    z-index: 99;
+}
+
+.burgerImg1 {
+    height: 65vh;
+}
+
+.burgerImg2 {
+    height: 65vh;
+}
+
+.burgerImg3 {
+    height: 65vh;
+}
+
+.tWaterMark {
+    width: 4vw;
+}
+
+.video {
+    width: 98vw;
+    height: 100vh;
+}
