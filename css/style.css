@@ -841,6 +841,15 @@ footer {
     height: 100vh;
 }
 
+.headerUpTextHover:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.headerPhoneNumbers:hover {
+    color: lightgrey;
+}
+    
+
 @media only screen and (min-width: 1200px){
     .headerDownText2 {margin: 0;}
     .pricetableDownPhotoNonshow {display: none;}
