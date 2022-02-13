@@ -843,6 +843,7 @@ footer {
 
 @media only screen and (min-width: 1200px){
     .headerDownText2 {margin: 0;}
+    .pricetableDownPhotoNonshow {display: none;}
 }
 
 @media only screen and (max-width: 1199.98px){
@@ -921,5 +922,11 @@ footer {
     .ourServisesDown1 {max-width: 70%;}
     .ourServisesDown2 {max-width: 70%;}
     .ourServisesDown3 {max-width: 70%;}
-    header:after {height: 640px;}
+    header:after {height: 610px;}
+    .pricetableDownPhotoNonshow {display: flex;}
+    .pricetableDownPhotoShow {display: none;}
+    .pricetableDownPhoto {max-width: 50%;}
+    .pricetableDownPhotoText {font-size: 18px;}
+    .pricetableDownPhotoTitle {font-size: 28px;}
+    header {background-size: 100vh 90%;}
 }
